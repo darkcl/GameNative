@@ -1,0 +1,350 @@
+<resources>
+    <string name="app_name">GameNative</string>
+    <string name="login_user">登入</string>
+    <string name="login_2fa">雙重驗證</string>
+    <string name="home">主頁</string>
+    <string name="settings">設定</string>
+    <string name="login_qr">掃碼登入</string>
+    <string name="app_library">遊戲庫</string>
+    <string name="app_downloads">下載</string>
+    <string name="unknown_app">未知應用</string>
+    <string name="steam_2fa_incorrect">輸入錯誤的驗證碼, 請再試一次</string>
+    <string name="steam_2fa_confirmation">使用Steam行動應用程式確認登入…</string>
+    <string name="steam_2fa_device">請輸入您的驗證器應用程式中的雙重驗證碼</string>
+    <string name="steam_2fa_email">請輸入發送至郵件信箱 %s 的驗證碼</string>
+    <string name="steam_install_space_prompt">正在安裝的應用程式有以下空間需求:\n\n\t下載大小: %1$s\n\t磁碟佔用空間:
+        %2$s\n\t可用空間: %3$s</string>
+    <string name="steam_install_not_enough_space">正在安裝的應用程式需要 %1$s 的空間, 但此設備上只剩下 %2$s 的空間</string>
+    <string name="steam_cancel_download_message">您確定要取消下載此應用程式嗎?</string>
+    <string name="steam_delete_download_message">刪除此遊戲的所有已下載數據?</string>
+    <string name="steam_imagefs_download_install_title">下載 &amp; 安裝 ImageFS</string>
+    <string name="steam_imagefs_download_install_message">必須先下載並安裝 Ubuntu 映像, 然後才能編輯配置. 此操作可能需要幾分鐘,
+        是否繼續?</string>
+    <string name="steam_imagefs_install_title">安裝 ImageFS</string>
+    <string name="steam_imagefs_install_message">必須先下載並安裝 Ubuntu 映像, 然後才能編輯配置. 此操作可能需要幾分鐘, 是否繼續?</string>
+    <string name="steam_reset_container_title">重置容器</string>
+    <string name="steam_reset_container_message">這將把容器重置為預設配置</string>
+    <string name="steam_verify_files_title">驗證檔案</string>
+    <string name="steam_verify_files_message">請確保您的存檔已上傳至雲端或已備份, 然後再進行驗證, 否則存檔可能會被覆蓋</string>
+    <string name="steam_update_title">更新</string>
+    <string name="steam_update_message">請確保您的存檔已上傳至雲端或已備份, 然後再進行驗證, 否則存檔可能會被覆蓋</string>
+    <string name="steam_cloud_sync_success">雲端同步已成功完成</string>
+    <string name="steam_cloud_sync_up_to_date">遊戲存檔已是最新版本</string>
+    <string name="steam_cloud_sync_failed">雲端同步失敗: %s</string>
+    <string name="steam_storage_permission_required">需要存儲權限</string>
+    <string name="steam_container_reset_success">容器重設為預設設定</string>
+    <string name="steam_imagefs_installed">已安裝 ImageFS, 請嘗試再次編輯容器</string>
+    <string name="steam_imagefs_install_failed">ImageFS 安裝失敗: %s</string>
+    <string name="steam_uninstall_game_title">卸載遊戲</string>
+    <string name="steam_uninstall_confirmation_message">您確定要卸載 %1$s 嗎? 此操作無法撤回</string>
+    <string name="steam_uninstall_success">%1$s 已卸載</string>
+    <string name="steam_uninstall_failed">卸載遊戲失敗</string>
+    <string name="steam_never">從不</string>
+    <string name="steam_continue">繼續</string>
+    <string name="header_img_desc">App header image</string>
+    <string name="download">下載</string>
+    <string name="install">安裝</string>
+    <string name="install_app">安裝</string>
+    <string name="delete_app">刪除</string>
+    <string name="uninstall">卸載</string>
+    <string name="run_app">開始遊戲</string>
+    <string name="download_prompt_title">安裝應用</string>
+    <string name="calculating_space_requirements">計算空間需求…</string>
+    <string name="delete_prompt_title">刪除應用</string>
+    <string name="cancel_download_prompt_title">取消下載</string>
+    <string name="acknowledge">確定</string>
+    <string name="yes">確定</string>
+    <string name="no">取消</string>
+    <string name="not_enough_space">空間不足</string>
+    <string name="proceed">繼續</string>
+    <string name="cancel">取消</string>
+    <string name="untitled">未命名</string>
+    <string name="confirm_delete">確認刪除</string>
+    <string name="destination_library">遊戲庫</string>
+    <string name="destination_downloads">下載</string>
+    <string name="destination_friends">好友</string>
+
+    <!-- Custom Games -->
+    <string name="custom_games_title">自訂遊戲</string>
+    <string name="custom_games_no_paths">沒有添加路徑</string>
+    <string name="custom_games_grant_permission">授予許可</string>
+    <string name="custom_games_manual_subtitle">從遊戲庫添加</string>
+    <string name="custom_games_no_manual_entries">尚未手動添加遊戲</string>
+    <string name="custom_games_remove_path_title">刪除路徑</string>
+    <string name="custom_games_remove_path_message">從掃描中刪除此路徑? 文件夾內容將保留在磁盤上</string>
+    <string name="custom_games_remove_path_content_desc">刪除路徑</string>
+    <string name="custom_games_path_removed_toast">已從列表中刪除路徑. 文件夾內容尚未刪除</string>
+    <string name="custom_games_remove_manual_title">刪除自訂遊戲</string>
+    <string name="custom_games_remove_manual_message">從您的遊戲庫中刪除這個手動添加的文件夾嗎? 這不會刪除磁盤上的文件</string>
+    <string name="custom_games_remove_manual_content_desc">刪除文件夾</string>
+    <string name="custom_games_manual_removed_toast">已從遊戲庫中刪除文件夾</string>
+    <string name="custom_games_cannot_access">⚠ 無法訪問 (檢查路徑是否存在)</string>
+    <string name="custom_games_permission_denied">⚠ 沒有權限</string>
+    <string name="custom_games_zero_folders">找到 0 個文件夾</string>
+    <string name="custom_games_folders_found">找到 %d 個文件夾</string>
+    <string name="custom_games_scan_description">將掃描這些路徑中的文件夾中的 .exe 文件並將其列為自定義遊戲, 這可能會減慢應用程序的啟動時間</string>
+    <string name="custom_game_folder_picker_error">無法解析文件夾路徑</string>
+    <string name="custom_game_exe_selection_title">需要選擇可執行程序</string>
+    <string name="custom_game_exe_selection_message">此遊戲有多個可執行文件, 請打開 自定義遊戲設置 以選擇要啟動的遊戲</string>
+    <string name="custom_game_settings">自定義遊戲設置</string>
+    <string name="custom_game_delete_title">刪除遊戲</string>
+    <string name="custom_game_delete_message">您確定要卸載 %1$s 嗎?</string>
+    <string name="custom_game_unknown_developer">未知</string>
+
+    <!--Winlator-->
+    <string name="disabled">已禁用</string>
+    <string name="copy">複製</string>
+    <string name="stability">穩定</string>
+    <string name="compatibility">相容性</string>
+    <string name="intermediate">平衡</string>
+    <string name="performance">高性能</string>
+    <string name="unity">Unity</string>
+    <string name="unity_mono_bleeding_edge">Unity Mono Bleeding Edge</string>
+    <string name="title_ubuntufs">Ubuntu FS</string>
+
+    <!-- Winlator: Win Components -->
+    <string name="direct3d">Direct3D</string>
+    <string name="directsound">DirectSound</string>
+    <string name="directmusic">DirectMusic</string>
+    <string name="directplay">DirectPlay</string>
+    <string name="directshow">DirectShow</string>
+    <string name="directx">DirectX</string>
+    <string name="vcrun2010">Visual C++ 2010</string>
+    <string name="wmdecoder">Windows Media Decoder</string>
+    <string name="opengl">OpenGL</string>
+    <string name="dxvk_version">DXVK 版本</string>
+    <string name="run">執行</string>
+    <string name="edit">編輯</string>
+    <string name="remove">刪除</string>
+    <string name="add">添加</string>
+    <string name="ok">確認</string>
+    <string name="storage_info">存儲信息</string>
+    <string name="duplicate">複製</string>
+    <string name="reconfigure">重新配置</string>
+    <string name="content_info">內容信息</string>
+    <string name="game_not_installed_title">遊戲未安裝</string>
+    <string name="game_not_installed_message">%s 未安裝, 請在啟動前先安裝遊戲</string>
+    <string name="save_container_settings_title">保存容器配置?</string>
+    <string name="save_container_settings_message">此遊戲運行已應用修改的配置, 您想保存容器配置嗎?</string>
+    <string name="sync_error_title">同步錯誤</string>
+    <string name="save">保存</string>
+    <string name="discard">取消</string>
+    <string name="shortcuts">捷徑</string>
+    <string name="containers">容器</string>
+    <string name="box64_rc_file">Box64 RCFile</string>
+    <string name="contents">內容</string>
+    <string name="about">關於</string>
+    <string name="open_file">打開文件</string>
+    <string name="download_file">下載文件</string>
+    <string name="processor_affinity">處理器關聯</string>
+    <string name="bring_to_front">移到最前面</string>
+    <string name="end_process">結束工作</string>
+    <string name="new_file">新增文件</string>
+    <string name="add_to_home_screen">添加到主畫面</string>
+    <string name="toggle_fullscreen">切換全屏</string>
+    <string name="toggle_orientation">切換螢幕方向</string>
+    <string name="task_manager">工作管理員</string>
+    <string name="magnifier">放大鏡</string>
+    <string name="logs">應用程序日誌</string>
+    <string name="exit_game">退出</string>
+    <string name="exit">退出遊戲</string>
+    <string name="keyboard">鍵盤</string>
+    <string name="input_controls">螢幕控制器</string>
+    <string name="touchpad_help">觸摸板支援</string>
+
+    <!-- Toast -->
+    <string name="toast_failed_log_save">無法將 logcat 保存到目標</string>
+
+    <!-- Settings -->
+    <string name="settings_save_logcat_subtitle">保存此應用程序 PID 的 logcat 快照</string>
+    <string name="settings_save_logcat_title">保存 logcat</string>
+
+    <string name="box86_64_env_var_help__dynarec_safeflags"><![CDATA[
+        CALL/RET opcodes 的 flags 處理方式<br /><br />
+        <b>0</b> : 將 CALL/RET 視為從不需要處理 (更快, 但不穩定)<br />
+        <b>1</b> : 大多數 RET 需要 flags, 大多數 CALLS 不需要 flags<br />
+        <b>2</b> : 所有 CALL/RET 都需要 flags 處理 (速度較慢)
+    ]]>    </string>
+    <string name="box86_64_env_var_help__dynarec_fastnan">產生類似 x86 架構上的 -NAN 值</string>
+    <string name="box86_64_env_var_help__dynarec_fastround">產生精確的 x86 捨入 / 進位結果</string>
+    <string name="box86_64_env_var_help__dynarec_x87double">在 x87 模擬中使用的 Float/Double 浮點類型</string>
+    <string name="box86_64_env_var_help__dynarec_bigblock"><![CDATA[
+        Dynarec 建立 BigBlock<br /><br />
+        <b>0</b> : 不要嘗試建立儘可能大的程式碼塊<br />
+        <b>1</b> : 建立儘可能大的 Dynarec 程式碼塊<br />
+        <b>2</b> : 建立更大的 Dynarec 塊 (允許重疊, 只適用於 ELF 記憶體)<br />
+        <b>3</b> : 建立更大的 Dynarec 塊 (允許重疊, 適用於所有記憶體類型)
+    ]]>    </string>
+    <string name="box86_64_env_var_help__dynarec_strongmem"><![CDATA[
+        強記憶體模型模擬<br /><br />
+        <b>0</b> : 不使用特殊處理<br />
+        <b>1</b> : 啟用寫入記憶體時的部分 Memory Barrier (針對某些 MOV opcode)<br />
+        <b>2</b> : 包含選項1, 再加上每次使用 MOV 指令寫入記憶體時都加入記憶體屏障<br />
+        <b>3</b> : 包含選項1, 再加上從記憶體讀取時，以及在某些 SSE/SSE2 opcodes 上使用 Memory Barrier
+    ]]>    </string>
+    <string name="box86_64_env_var_help__dynarec_forward">定義建立區塊時允許的最大向前位移</string>
+    <string name="box86_64_env_var_help__dynarec_callret">最佳化 CALL/RET 操作碼</string>
+    <string name="box86_64_env_var_help__dynarec_wait">定義 Dynarec 是否需等待 FillBlock 準備就緒</string>
+
+    <string name="resume_download">繼續下載</string>
+    <string name="pause_download">暫停下載</string>
+
+    <!-- Library & Game Management -->
+    <string name="create_shortcut">創建捷徑</string>
+    <string name="label">標籤</string>
+    <string name="icon">圖示</string>
+    <string name="create">創建</string>
+    <string name="update_now">立即更新</string>
+    <string name="moving_files">移動文件</string>
+    <string name="need_internet_to_install">需要網絡連線才能安裝</string>
+    <string name="install_wifi_only_enabled">僅啟用通過 WiFi 安裝</string>
+    <string name="installation_progress">安裝進度</string>
+    <string name="downloading">下載中...</string>
+    <string name="calculating_time">計算中...</string>
+    <string name="download_failed_try_again">下載失敗, 請再試一次</string>
+    <string name="update_available">可用更新</string>
+    <string name="game_information">遊戲資訊</string>
+    <string name="status">狀態</string>
+    <string name="size">大小</string>
+    <string name="location">檔案位置</string>
+    <string name="developer">開發者</string>
+    <string name="release_date">發布日期</string>
+    <string name="installed">已安裝</string>
+    <string name="installing">安裝中</string>
+    <string name="not_installed">未安裝</string>
+    <string name="open">開啟</string>
+    <string name="family_shared">家庭共享</string>
+    <string name="games">遊戲</string>
+    <string name="playtime_last_two_weeks">過去2週的遊戲時間: %s 小時</string>
+    <string name="total_playtime">總遊戲時間: %s 小時</string>
+    <string name="add_custom_game_content_desc">添加自定義遊戲</string>
+    <string name="add_custom_game_dialog_title">添加自定義遊戲</string>
+    <string name="add_custom_game_dialog_message">請選擇包含您要添加為自定義遊戲的遊戲的文件夾</string>
+    <string name="add_custom_game_dont_show_again">不再顯示</string>
+    <string name="base_app_shortcut_created">已創建捷徑</string>
+    <string name="base_app_shortcut_failed">無法創建捷徑：%s</string>
+    <string name="base_app_images_fetched">映像獲取成功</string>
+    <string name="base_app_game_folder_not_found">找不到遊戲文件夾</string>
+    <string name="base_app_images_fetch_failed">無法獲取映像: %s</string>
+    <string name="base_app_exported">已導出</string>
+    <string name="base_app_export_failed">無法導出: %s</string>
+    <string name="base_app_export_cancelled">取消導出</string>
+
+    <!-- Login & Connection -->
+    <string name="no_connection_to_steam">沒有連接到 Steam</string>
+    <string name="retry_steam_connection">重試連接到 Steam</string>
+    <string name="continue_offline">離線下使用</string>
+
+    <!-- Profile & Menu -->
+    <string name="help_and_support">幫助 &amp; 支援</string>
+    <string name="hall_of_fame">名人堂</string>
+    <string name="go_online">進入在線模式</string>
+    <string name="go_offline">進入離線模式</string>
+    <string name="log_out">登出</string>
+    <string name="close">關閉</string>
+
+    <!-- Container Configuration: General -->
+    <string name="new_environment_variable">新增環境變數</string>
+    <string name="name">名稱</string>
+    <string name="value">值</string>
+    <string name="no_more_known_variables">沒有更多已知環境變數</string>
+    <string name="container_variant">容器變體</string>
+    <string name="wine_version">Wine版本</string>
+    <string name="exec_arguments">執行參數</string>
+    <string name="exec_arguments_example">例子: -dx11</string>
+    <string name="language">語言</string>
+    <string name="screen_size">螢幕大小</string>
+    <string name="width">寬度</string>
+    <string name="height">高度</string>
+    <string name="audio_driver">音訊驅動程式</string>
+    <string name="show_fps">顯示幀率</string>
+    <string name="remove_driver_confirmation">您確定要移除驅動程式 "%s"? 此操作無法復原</string>
+
+    <!-- Container Configuration: Steam Integration -->
+    <string name="use_legacy_drm">使用舊版 DRM</string>
+    <string name="force_dlc">強制開啟DLC</string>
+    <string name="force_dlc_description">僅在未偵測到 DLC 或包含 DLC 的存檔無法運作時啟用</string>
+    <string name="launch_steam_client_beta">啟動 Steam 用戶端 (Beta)</string>
+    <string name="launch_steam_client_description">降低效能並減慢啟動速度\n允許線上遊玩並修復 DRM 和控制器問題\n並非所有遊戲都適用</string>
+    <string name="allow_steam_updates">允許 Steam 更新</string>
+    <string name="allow_steam_updates_description">將 Steam 更新至最新版本, 會顯著降低效能</string>
+    <string name="steam_type">Steam 類型</string>
+
+    <!-- Container Configuration: Graphics -->
+    <string name="graphics_driver">圖形驅動程式</string>
+    <string name="graphics_driver_version">圖形驅動程式版本</string>
+    <string name="exposed_vulkan_extensions">啟用 Vulkan 擴充功能</string>
+    <string name="max_device_memory">最大內存容量</string>
+    <string name="frame_synchronization">影格同步</string>
+    <string name="use_adrenotools_turnip">Use Adrenotools Turnip</string>
+    <string name="vulkan_version">Vulkan 版本</string>
+    <string name="image_cache_size">圖像快取大小</string>
+    <string name="dx_wrapper">DX Wrapper</string>
+    <string name="vkd3d_feature_level">VKD3D Feature Level</string>
+    <string name="use_dri3">使用 DRI3</string>
+    <string name="use_dri3_description">在某些裝置上停用此功能或許能修復圖形故障</string>
+
+    <!-- Container Configuration: Emulation -->
+    <string name="fexcore_version">FEXCore 版本</string>
+    <string name="tso_mode">TSO 模式</string>
+    <string name="x87_mode">x87 模式</string>
+    <string name="multiblock">Multiblock</string>
+    <string name="emulator_64bit">64-bit 模擬器</string>
+    <string name="emulator_32bit">32-bit 模擬器</string>
+    <string name="box64_version">Box64 版本</string>
+    <string name="box64_preset">Box64 預設集</string>
+    <string name="box64_presets">Box64 預設集</string>
+    <string name="preset_name">預設集名稱</string>
+
+    <!-- Container Configuration: Input -->
+    <string name="use_sdl_api">使用 SDL API</string>
+    <string name="enable_xinput_api">啟用 XInput API</string>
+    <string name="enable_directinput_api">啟用 DirectInput API</string>
+    <string name="directinput_mapper_type">DirectInput Mapper 類型</string>
+    <string name="disable_mouse_input">停用滑鼠輸入</string>
+    <string name="touchscreen_mode">觸屏模式</string>
+    <string name="emulate_keyboard_mouse">模擬鍵盤與滑鼠</string>
+    <string name="emulate_keyboard_mouse_description">左搖桿 = WASD, 右搖桿 = 滑鼠, L2 = 滑鼠左鍵, R2 = 滑鼠右鍵</string>
+
+    <!-- Container Configuration: Rendering -->
+    <string name="renderer">渲染器 </string>
+    <string name="gpu_name">GPU 名稱</string>
+    <string name="offscreen_rendering_mode">螢幕外渲染模式</string>
+    <string name="video_memory_size">顯示記憶體大小</string>
+    <string name="enable_csmt">啟用 CSMT (Command Stream Multi-Thread)</string>
+    <string name="enable_strict_shader_math">啟用 Strict Shader Math</string>
+    <string name="mouse_warp_override">滑鼠躍遷覆寫</string>
+
+    <!-- Container Configuration: Management -->
+    <string name="environment_variables">環境變數</string>
+    <string name="no_environment_variables">沒有環境變數</string>
+    <string name="no_drives">未掛載任何儲存裝置</string>
+    <string name="startup_selection">啟動選項</string>
+    <string name="processor_affinity_32bit">處理器關聯 (32 位元應用程式)</string>
+    <string name="executable_path">執行路徑</string>
+    <string name="executable_path_placeholder">e.g., path\\to\\exe</string>
+
+    <!-- Dialogs -->
+    <string name="allowed_orientations">允許的螢幕方向</string>
+    <string name="select_wine_debug_channels">選擇 Wine 偵錯通道</string>
+    <string name="cpu_label">CPU%d</string>
+    <string name="describe_what_happened">描述發生了什麼</string>
+    <string name="get_support_on_discord">在 Discord 上獲取支援</string>
+
+    <!-- Driver Manager -->
+    <string name="driver_manager">驅動程式管理</string>
+    <string name="select_a_driver">選擇驅動程式</string>
+    <string name="import_zip_from_device">從裝置匯入ZIP</string>
+
+    <!-- Contents Manager -->
+    <string name="contents_manager">內容管理</string>
+    <string name="import_wcp_from_device">從裝置匯入 .wcp</string>
+    <string name="working">正在處理...</string>
+    <string name="selected_content">選定的內容</string>
+    <string name="installed_contents">已安裝的內容</string>
+    <string name="select_type">選擇類型</string>
+    <string name="untrusted_files_detected">偵測到不受信任的檔案</string>
+    <string name="install_anyway">繼續安裝</string>
+    <string name="remove_content">移除內容?</string>
+    <string name="remove_content_confirmation">您確定要移除 %1$s (%2$s)?</string>
+</resources>
